@@ -8,7 +8,7 @@ function Contact() {
       <HeaderTitle title="Contact" />
       <section className="contact_section">
         <div className="container contact_section-container">
-          <div style={{ textAlign: 'center', marginBottom: "5rem" }}>
+          <div style={{ textAlign: 'center', marginBottom: '5rem' }}>
             <h3>Pour nous contacter</h3>
             <p>
               Veuillez remplir le formulaire ci-dessous pour plus
@@ -52,8 +52,11 @@ function Contact() {
                   />
                 </div>
                 <div className="field_block">
-                  <label htmlFor="message">Message</label>
+                  <label className="field_block-label" htmlFor="message">
+                    Message
+                  </label>
                   <textarea
+                    className="field_block-input"
                     name="message"
                     id="message"
                     cols="30"
