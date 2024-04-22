@@ -4,7 +4,7 @@ function HeaderTitle(props) {
   const { title } = props;
 
   return (
-    <section>
+    <section className="page_header">
       <h1>{title}</h1>
     </section>
   );
