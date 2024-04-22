@@ -1,5 +1,11 @@
 .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #000;
     width: 100vw;
     height: 90px;
+    &>div{
+        width: 1200px;
+    }
 }
